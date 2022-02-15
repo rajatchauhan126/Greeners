@@ -1,0 +1,18 @@
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+// .dropdown-menu {
+//     display: block;
+// }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.vertical-padding {
+    padding: 0px 10%;
+}
+
+.set-width {
+    width: max-content;
+}

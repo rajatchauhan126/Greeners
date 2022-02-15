@@ -1,0 +1,21 @@
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.padding-tp-btm {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    // background-color: yellow;
+    // font-size: 20px;
+}

@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselComponent implements OnInit {
 
   constructor() { }
-
+  imageList = []
   ngOnInit(): void {
   }
 
+  onReadFileList() {
+    this.imageList.push("assets/Plants/plant2.jpg")
+    this.imageList.push("assets/Plants/plant3.jpg")
+  }
 }
